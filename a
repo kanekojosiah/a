@@ -1,0 +1,16 @@
+public class Main {
+    String name = "Account";
+    String name2 = "number";
+    String name3 = "Account";
+    String name4 = "Holder's";
+    String name5 = "name";
+    String name6 = "theaccountholdersname";
+    String name7 = "Balance";
+    int number = 123;
+    public static void main(String[] args) {
+        Main myObj = new Main();
+        System.out.println(myObj.name + " " + myObj.name2+ ": " + myObj.number);
+        System.out.println(myObj.name3 + " " + myObj.name4+ " " + myObj.name5 + ": "+myObj.name6);
+        System.out.println(myObj.name7 + ":" + myObj.number);
+    }
+}
